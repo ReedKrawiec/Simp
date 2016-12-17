@@ -1,3 +1,18 @@
 {
-  "files":["simp.ts"]
+   "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outDir": "./"
+    },
+    "files":[
+        "./src/simp.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "node": {
+     "fs": "empty"
+    }
 }
